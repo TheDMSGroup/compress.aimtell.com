@@ -1,6 +1,15 @@
-# jscompress.com [![Build Status](https://travis-ci.org/circlecell/jscompress.com.svg?branch=master)](https://travis-ci.org/circlecell/jscompress.com) [![devDependency Status](https://img.shields.io/david/dev/circlecell/jscompress.com.svg)](https://david-dm.org/circlecell/jscompress.com#info=devDependencies) [![Dependency Status](https://img.shields.io/david/circlecell/jscompress.com.svg)](https://david-dm.org/circlecell/jscompress.com)
+# compress.aimtell.com #
 
+## This is a forked version of jscompress.com for internal use ##
 
-This is the second version of [jscompress.com](http://jscompress.com): it's modular, has more features (eg drag'n'drop) and works 100% on client-side.
+### Run with NodeJS ###
+It can be run locally as a node app (node.js version 7+) by running:
 
-Check out [CONTRIBUTING.md](CONTRIBUTING.md) before making pull request.
+1. `npm install`
+2. `NODE_ENV=production webpack --mode production`
+
+### Run with Docker ###
+It can also be run on Docker by running:
+`docker compose -f "docker-compose.yml" up -d --build`
+
+Once the webpack build is complete, the compression tool will run on http://localhost:8089
