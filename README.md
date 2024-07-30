@@ -6,7 +6,7 @@
 It can be run locally as a node app (node.js version 7+) by running:
 
 1. `npm install`
-2. `NODE_ENV=production webpack --mode production`
+2. `NODE_ENV=development ./node_modules/.bin/webpackwebpack --mode development`
 
 ### Run with Docker ###
 It can also be run on Docker by running:

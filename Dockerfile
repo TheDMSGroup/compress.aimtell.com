@@ -5,7 +5,7 @@ ARG NODE_VERSION=16.0.0
 FROM node:${NODE_VERSION}-alpine
 
 # Use production node environment by default
-ENV NODE_ENV production
+ENV NODE_ENV development
 
 #Install some dependencies
 WORKDIR /usr/app
